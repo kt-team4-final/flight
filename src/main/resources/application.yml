@@ -64,9 +64,9 @@ spring:
  ##mysql connection test
   datasource: 
     driverClassName: com.mysql.cj.jdbc.Driver
-    password: "${_DATASOURCE_PASSWORD:gksthf4350!}"
-    url: "jdbc:mysql://${_DATASOURCE_ADDRESS:team4-mysql.chakwspaezvo.ap-northeast-1.rds.amazonaws.com:3306}/${_DATASOURCE_TABLESPACE:mysql?characterEncoding=UTF-8&serverTimezone=UTC}"
-    username: "${_DATASOURCE_USERNAME:admin}"
+    password: gksthf4350!
+    url: "jdbc:mysql://team4-mysql.chakwspaezvo.ap-northeast-1.rds.amazonaws.com:3306/mysql?characterEncoding=UTF-8&serverTimezone=UTC
+    username: admin
   jpa: 
     hibernate: 
       ddl-auto: update
